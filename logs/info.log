@@ -1,0 +1,18 @@
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:42:25.383Z"}
+{"foo":"bar","level":"info","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:42:25.386Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:49:00.057Z"}
+{"foo":"bar","level":"info","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:49:00.063Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:49:12.432Z"}
+{"foo":"bar","level":"info","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:49:12.436Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:49:20.959Z"}
+{"foo":"bar","level":"info","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:49:20.962Z"}
+{"level":"info","message":"POST /add-user 200 29ms","meta":{"req":{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"355","content-type":"application/json","host":"localhost:3002","postman-token":"3cbfe752-8c2c-4e04-9d0b-91b564dcaceb","user-agent":"PostmanRuntime/7.26.8"},"httpVersion":"1.1","method":"POST","originalUrl":"/add-user","query":{},"url":"/add-user"},"res":{"statusCode":200},"responseTime":29,"service":"lead"},"timestamp":"2022-05-15T08:49:40.309Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:52:02.804Z"}
+{"foo":"bar","level":"info","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:52:02.807Z"}
+{"level":"info","message":"POST /add-user 200 22ms","meta":{"req":{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"355","content-type":"application/json","host":"localhost:3002","postman-token":"134e4fc7-629b-4d2b-927b-f0959f5dabc8","user-agent":"PostmanRuntime/7.26.8"},"httpVersion":"1.1","method":"POST","originalUrl":"/add-user","query":{},"url":"/add-user"},"res":{"statusCode":200},"responseTime":22,"service":"lead"},"timestamp":"2022-05-15T08:52:07.659Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T09:03:46.922Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T09:11:25.029Z"}
+{"foo":"bar","level":"error","message":"Created log files!++","service":"lead","timestamp":"2022-05-15T09:11:50.940Z"}
+{"foo":"bar","level":"error","message":"Created log files!++","service":"lead","timestamp":"2022-05-15T09:11:59.804Z"}
+{"foo":"bar","level":"error","message":"Created log files!++","service":"lead","timestamp":"2022-05-15T09:14:17.634Z"}
+{"foo":"bar","level":"error","message":"Created log files!++","service":"lead","timestamp":"2022-07-05T07:35:47.245Z"}

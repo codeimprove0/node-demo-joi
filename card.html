@@ -1,0 +1,265 @@
+<html>
+
+<head>
+  <meta charset="utf8">
+  <title>Test Template</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      font-size: 8px;
+      background: #ffffff;
+      -webkit-print-color-adjust: exact;
+      box-sizing: border-box;
+      line-height: 12px;
+      font-weight: normal;
+    }
+
+    .page {
+      position: relative;
+      /* width:8.27in;
+            height:11.69in; */
+      height: 350mm;
+      width: 320mm;
+      display: block; 
+      /* background: white url({{footerbg}}) no-repeat; */
+      background: white url('') no-repeat;
+      background-position: bottom left;
+      background-size: 100%;
+      page-break-after: auto;
+      margin: 50px;
+      overflow: hidden;
+    }
+
+    body {
+      counter-reset: page;
+    }
+
+    .page:after {
+      text-align: right;
+      display: block;
+      position: absolute;
+      bottom: 20px;
+      right: 30px;
+      counter-increment: page;
+      /* content: counter(page) " / 8" ; */
+    }
+
+    @media print {
+      body {
+        background: black;
+      }
+
+      .page {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box
+    }
+
+    .clearfix:after,
+    .clearfix:before,
+    .row:after,
+    .row:before {
+      display: table;
+      content: " "
+    }
+
+    .clearfix:after,
+    .row:after {
+      clear: both
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0px !important;
+      width: 100%;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    table>tbody>tr>td {
+      vertical-align: top;
+    }
+
+    table>thead>tr>th,
+    table>thead>tr>td {
+      padding: 5px 5px;
+      vertical-align: middle;
+      background: #f5f5f5;
+      border: solid 1px;
+    }
+
+    table.table-border>tbody>tr>td {
+      min-height: 20px;
+      border: solid 1px #000000;
+    }
+
+    table.tdpad5>tbody>tr>td {
+      padding: 3px 5px;
+    }
+
+    .brdr-left {
+      border-left: solid 1px #000000;
+    }
+
+    .brdr-right {
+      border-right: solid 1px #000000;
+    }
+
+    .brdr-top {
+      border-top: solid 1px #000000;
+    }
+
+    .brdr-bottom {
+      border-bottom: solid 1px #000000;
+    }
+
+    .brdr {
+      border: solid 1px #000000;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: normal;
+    }
+
+    .page.first {
+      border-left: 5px solid green;
+    }
+
+    .bottom {
+      position: absolute;
+      display: none;
+      left: 0mm;
+      right: 0mm;
+      bottom: 0mm;
+      z-index: 0;
+    }
+
+    .group {
+      margin-top: 3mm;
+    }
+
+    .line {
+      color: white;
+      position: relative;
+    }
+
+
+
+    .logo {
+      position: relative;
+      width: 80%;
+      left: 10%;
+      top: 15%;
+    }
+
+    .img {
+      max-width: 100%;
+    }
+
+    .main {
+      padding: 5px 30px;
+    }
+
+    .page-title {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 16px;
+      margin: 0px;
+      margin-bottom: 10px;
+    }
+
+    .page-subtitle {
+      text-align: center;
+      font-style: italic;
+      font-size: 10px;
+      margin: 0px;
+      margin-bottom: 10px;
+    }
+
+    .uline {
+      text-decoration: underline;
+    }
+
+    .text-italic {
+      font-style: italic;
+    }
+
+    .text-right {
+      text-align: right;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .mrg-l20 {
+      margin-left: 20px;
+    }
+    .bt-table{
+      width: 60% !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="page">
+      <div class="header">
+        <img
+          src="https://stimg.cardekho.com/images/carexteriorimages/large/Maruti/Baleno/8674/1645684614616/front-left-side-47.jpg" class="img" />
+      </div>
+      <div class="main">
+        <div>
+          <h2 class="page-title">Create Pdf in Node JS</h2>
+        </div>
+        <br />
+        <p>
+          Dear Customer, <br /> <br />
+          TEST HSUHUSUSHUSHUSHUSUSUSHUS <br /> <br />
+        </p> 
+ 
+        <div style="margin-bottom: 40px"> 
+        </div>
+        <table class="tdpad5 bt-table">
+          <tbody>
+            <tr>
+              <td style="width: 50%">Name</td>
+              <td style="width: 50%">Code Improve</td> 
+            </tr>
+            <tr>
+              <td>Amount</td>
+              <td>{{AMOUNT}}</td> 
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td>{{PRICE}}</td> 
+            </tr>  
+
+          </tbody>
+        </table>
+        <br/> 
+        
+        <p><span>NOTE :</span> 17268912381272187381278217821732171</p>
+      </div> 
+      
+    </div><!-- page 4 End-->
+
+  </div>
+</body>
+
+</html>

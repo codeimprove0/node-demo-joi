@@ -1,0 +1,11 @@
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:42:25.383Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:49:00.057Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:49:12.432Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:49:20.959Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T08:52:02.804Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T09:03:46.922Z"}
+{"foo":"bar","level":"error","message":"Created log files!","service":"lead","timestamp":"2022-05-15T09:11:25.029Z"}
+{"foo":"bar","level":"error","message":"Created log files!++","service":"lead","timestamp":"2022-05-15T09:11:50.940Z"}
+{"foo":"bar","level":"error","message":"Created log files!++","service":"lead","timestamp":"2022-05-15T09:11:59.804Z"}
+{"foo":"bar","level":"error","message":"Created log files!++","service":"lead","timestamp":"2022-05-15T09:14:17.634Z"}
+{"foo":"bar","level":"error","message":"Created log files!++","service":"lead","timestamp":"2022-07-05T07:35:47.245Z"}
